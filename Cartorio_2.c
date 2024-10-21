@@ -162,7 +162,9 @@
   	
   		printf("\t2 - Consultar Usuário\n");
   	
-  		printf("\t3 - Deletar Usuário\n\n\n");
+  		printf("\t3 - Deletar Usuário\n");
+  		
+  		printf("\t4 - Sair do sistema\n\n\n");
 	
 		printf(" Opção: ");    //Fim do menu
   	
@@ -191,6 +193,12 @@
 			case 3:
 				
 				deletar();
+				break;
+				
+			case 4:
+				
+				printf("\n\n\nObrigado por utilizar o sistema!\n\n\n");
+				return 0;
 				break;
 				
 			default:
